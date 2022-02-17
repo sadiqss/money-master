@@ -26,17 +26,19 @@
                 <div class="col-md-6">
                     <div class="p-3 border bg-light">
                         <h3 class="text-center">Income</h3>
-                        <p class="text-center">Income: <input class="m-1" type="text"></p>
+                        <p class="text-center">Income: <input id="income-credit" class="m-1" type="text"></p>
                         <h3 class="text-center">Expenses</h3>
-                        <p class="text-center">Food: <input class="m-1" type="text"></p>
-                        <p class="text-center">Rent: <input class="m-1" type="text"></p>
-                        <p class="text-center">Clothes <input class="m-1" type="text"></p>
-                        <p class="text-center"><button type="button" class="btn btn-primary">Calculate</button></p>
+                        <p class="text-center">Food: <input id="food-credit" class="m-1" type="text"></p>
+                        <p class="text-center">Rent: <input id="rent-credit" class="m-1" type="text"></p>
+                        <p class="text-center">Clothes <input id="clothes-credit" class="m-1" type="text"></p>
+                        <p class="text-center"><button type="button" id="expense-calculate"
+                                class="btn btn-primary">Calculate</button></p>
 
-                        <h4 class="text-center">Total Expenses: 5500 </h4>
-                        <h4 class="text-center">Balance: 4500</h4>
-                        <p class="text-center">Save:<button type="button" class="btn btn-primary">20</button>%<button
-                                type="button" class="btn btn-primary">Save</button></p>
+                        <h4 class="text-center">Total Expenses: <span id="total-expense">0000</span> </h4>
+                        <h4 class="text-center">Balance: <span id="total-balance">0000</span></h4>
+                        <p class="text-center">Save:<button type="button"
+                                class="btn btn-secondary px-5 mx-1">20</button>%<button type="button"
+                                class="btn btn-primary mx-1">Save</button></p>
 
                         <h4 class="text-center">Saving Amount: 2000 </h4>
                         <h4 class="text-center">Remaining Balance: 2500 </h4>
@@ -45,7 +47,7 @@
             </div>
         </div>
     </main>
-
+    <script src="money-calc.js"></script>
 </body>
 
 </html>
