@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <h1 class="text-center">Finance Plus</h1>
+        <h1 class="text-center my-4">Finance Plus</h1>
     </header>
     <main>
         <div class="container px-4">
@@ -24,20 +24,20 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="p-3 border bg-light">
+                    <div class="p-2 border bg-light">
                         <h3 class="text-center">Income</h3>
                         <p class="text-center">Income: <input id="income-credit" class="m-1" type="text"></p>
                         <h3 class="text-center">Expenses</h3>
                         <p class="text-center">Food: <input id="food-credit" class="m-1" type="text"></p>
                         <p class="text-center">Rent: <input id="rent-credit" class="m-1" type="text"></p>
-                        <p class="text-center">Clothes <input id="clothes-credit" class="m-1" type="text"></p>
+                        <p class="text-center">Clothes: <input id="clothes-credit" class="m-1" type="text"></p>
                         <p class="text-center"><button type="button" id="expense-calculate"
-                                class="btn btn-primary">Calculate</button></p>
+                                class="btn btn-primary px-3">Calculate</button></p>
 
                         <h4 class="text-center">Total Expenses: <span id="total-expense">0000</span> </h4>
                         <h4 class="text-center">Balance: <span id="total-balance">0000</span></h4>
                         <p class="text-center">Save:<input id="save-credit" class="m-1" type="text">%<button
-                                type="button" id="save-calculation" class="btn btn-primary mx-1">Save</button></p>
+                                type="button" id="save-calculation" class="btn btn-primary mx-2">Save</button></p>
 
                         <h4 class="text-center">Saving Amount: <span id="saving-amount">000</span> </h4>
                         <h4 class="text-center">Remaining Balance: <span id="remaining-amount">000</span></h4>
@@ -46,7 +46,8 @@
             </div>
         </div>
     </main>
-    <script src="money-calc.js"></script>
+    <!-- javascript file linked -->
+    <script src="javascript/money-calc.js"></script>
 </body>
 
 </html>
